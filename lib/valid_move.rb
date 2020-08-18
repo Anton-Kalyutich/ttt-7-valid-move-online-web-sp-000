@@ -9,4 +9,5 @@ def position_taken?(board, index)
 end
 
 def valid_index?(index)
+  index >= 0 && index < 9
 end
